@@ -1,13 +1,430 @@
 <!DOCTYPE html>
-<html lang="th">
-<head>
-    <base target="_top">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ApplyNewUser</title>
-</head>
-<body>
-    <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbyM22W05X7fr7_ShUb3z5HiSGL-2vadaU0VvFtpefYflPeCiIW1Pr_S5QaOtXtmUGOk/exec" frameborder="0"></iframe>
-</body>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop S Fashion</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand neon-text" href="#">S-Shop Fashion</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">ยินดีต้อนรับ</a></li>
+                            <li><a class="color_animation" href="#story">เกี่ยวกับเรา</a></li>
+                            <li><a class="color_animation" href="#pricing">สินค้า</a></li>
+                            <li><a class="color_animation" href="#beer">โปรโมชั่น</a></li>
+                            <li><a class="color_animation" href="#bread">สินค้าขายดี</a></li>
+
+                            <li><a class="color_animation" href="#featured">สินค้าเข้าใหม่</a></li>
+                            <li><a class="color_animation" href="#reservation">สั่งสินค้า</a></li>
+                            <li><a class="color_animation" href="#contact">ติดต่อS-Shop</a></li> 
+
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="white second-title">" S-Shop Fashion "</h2><br>
+                    <h2 class="top-title x">! 45฿ ทุกตัว ทั้งร้าน</h2>
+                    <h2 class="white second-title">" โปร เหมา ๆ 10ชิ้น 400฿  "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-12">
+                    <div class="img-section">
+                        <img src="images/a1.png" width="250" height="220" style="margin-right: 10px;">
+                        <img src="images/1.gif" width="250" height="220" style="margin-right: 10px;">
+                        <img src="images/radish.jpg" width="250" height="220" style="margin-right: 10px;">
+                        <img src="images/corn.jpg" width="250" height="220" style="margin-right: 10px;">
+                    </div>
+                    <div class="xx" style="text-align: center; margin-top: 20px;">
+                        <a href="https://lin.ee/kQA3Nby" target="_blank">
+                            <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">@Line ClicK</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+       <section id ="pricing" class="description_content">
+        <div class="pricing background_content neon-text">
+           <h1><span>!ย้ำ ทั้งร้าน ทุกตัว</span> 45฿ </h1>
+        </div>
+       <div class="text-content container"> 
+           <div class="container">
+               <div class="row">
+                   <div id="w">
+                       <ul id="filter-list" class="clearfix">
+                           <li class="filter" data-filter="all">ทั้งหมด</li>
+                           <li class="filter" data-filter="breakfast">แฟชั่น ชุดเดรส</li>
+                           <li class="filter" data-filter="special">แฟชั่น เดรสสั้น</li>
+                           <li class="filter" data-filter="desert">แฟชั่น เสื้อ</li>
+                           <li class="filter" data-filter="dinner">แฟชั่น เด็ก</li>
+                       </ul><!-- @end #filter-list -->    
+                       <ul id="portfolio">
+
+                           <li class="item breakfast"><img src="images/S000/1.png" alt="Food" >
+                            <h2 class="white">S001</h2>
+                           </li>
+                           <li class="item dinner special"><img src="images/S000//2.png" alt="Food" >
+                               <h2 class="white">S002</h2>
+                           </li>
+                           <li class="item dinner breakfast"><img src="images/S000/3.png" alt="Food" >
+                               <h2 class="white">S003</h2>
+                           </li>
+                           <li class="item special"><img src="images/S000/4.png" alt="Food" >
+                               <h2 class="white">S004</h2>
+                           </li>
+                           <li class="item dinner"><img src="images/S000/5.png" alt="Food" >
+                               <h2 class="white">S005</h2>
+                           </li>
+                           <li class="item special"><img src="images/S000/6.png" alt="Food" >
+                               <h2 class="white">S006</h2>
+                           </li>
+                           <li class="item desert"><img src="images/S000/7.png" alt="Food" >
+                               <h2 class="white">S007</h2>
+                           </li>
+                           <li class="item desert breakfast"><img src="images/S000/8.png" alt="Food" >
+                               <h2 class="white">S008</h2>
+                           </li>  
+                           <li class="item breakfast"><img src="images/S000/9.png" alt="Food" >
+                            <h2 class="white">S009</h2>
+                           </li>
+                           <li class="item desert"><img src="images/S000/10.png" alt="Food" >
+                               <h2 class="white">S010</h2>
+                           </li>
+                           
+                           <li class="item dinner special"><img src="images/S000/11.png" alt="Food" >
+                               <h2 class="white">S011</h2>
+                           </li>
+                           <li class="item dinner breakfast"><img src="images/S000/12.png" alt="Food" >
+                               <h2 class="white">S012</h2>
+                           </li>
+                           <li class="item breakfast"><img src="images/S000/13.png" alt="Food" >
+                            <h2 class="white">S013</h2>
+                           </li>
+                           <li class="item dinner special"><img src="images/S000/14.png" alt="Food" >
+                               <h2 class="white">S014</h2>
+                           </li>
+                           <li class="item dinner breakfast"><img src="images/S000/15.png" alt="Food" >
+                               <h2 class="white">S015</h2>
+                           </li>
+                           <li class="item special"><img src="images/S000/16.png" alt="Food" >
+                               <h2 class="white">S016</h2>
+                           </li>
+                           <li class="item dinner"><img src="images/S000/17.png" alt="Food" >
+                               <h2 class="white">S017</h2>
+                           </li>
+                           <li class="item special"><img src="images/S000/18.png" alt="Food" >
+                               <h2 class="white">S018</h2>
+                           </li>
+                           <li class="item desert"><img src="images/S000/19.png" alt="Food" >
+                               <h2 class="white">S019</h2>
+                           </li>
+                           <li class="item desert breakfast"><img src="images/S000/20.png" alt="Food" >
+                               <h2 class="white">S020</h2>
+                           </li>  
+                          
+                           
+                           
+                       </ul><!-- @end #portfolio -->
+                    
+                   </div><!-- @end #w -->
+               </div>
+           </div>
+       </div>  
+   </section>
+    
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content neon-text">
+                <h1>ⓈⒽⓄⓅ⋆⋆ⓃⓄⓌ</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/slider1.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>โปรลดราคา</h1>
+                    <div class="fa fa-shopping-cart fa-2x"></div>
+                    <p class="desc-text">✨โปร เหมาๆ 🎉 โปรสุดคุ้ม! ขายทุกชิ้นเพียง 45 บาท✨ ซื้อ 10 ชิ้นในราคาแค่ 400 บาทเท่านั้น! 😍 และยังมีบริการจัดส่งฟรี (สอบถามรายละเอียดเพิ่มเติมกับแอดมินร้านได้เลย) 🚚💨 อย่าพลาดโอกาสนี้นะคะ!</p>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Our Bread  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content neon-text">
+                <h1>สินค้า ขายดี <span>!! Hot Hit</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>แฟชั่นราคาถูกที่นี่!</h1>
+                    <div class="fa fa-truck fa-2x"></div>
+                    <p class="desc-text">🌟 ช้อปเสื้อผ้าแฟชั่นราคาถูกที่นี่! 🌟 พบกับชุดเดรสสุดเก๋และแฟชั่นอื่นๆ ที่อัปเดตทุกเดือน พร้อมโปรพิเศษลดราคาให้คุณเลือกช็อปได้ไม่อั้น! สวยในงบประหยัด แค่คลิกเดียวก็สั่งซื้อได้ทันที ไม่พลาดเทรนด์ฮิต! 🛍️✨</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                    <img src="images/corn1.jpg" width="260" alt="Bread">
+                    <img src="images/bread2.jpg" width="260" alt="Bread">
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content neon-text">
+                <h1>✧New products✧</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>New ↠products↞</h1>
+                    <div class="fa fa-shopping-cart fa-2x"></div>
+                    <p class="desc-text">✨ ตื่นเต้นทุกสัปดาห์!✨พบกับสินค้าน่าใช้เข้าใหม่ที่เราคัดสรรมาพิเศษเพื่อลูกค้าทุกคน อัปเดตทุกอาทิตย์ รับรองว่าไม่พลาดเทรนด์สุดฮิต! ช็อปเลยวันนี้เพื่อสิทธิพิเศษและส่วนลดที่ไม่เหมือนใคร! 🛍️💖</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content neon-text">
+                <h1>Shipping information</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="ชื่อ" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="นามสกุล" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="ที่อยู่(อย่างละเอียด)" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="รหัสไปรษณีย์" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="เบอร์โทรศัพท์" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="ช่องทางติดต่อสำรอง" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="อีเมล์" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="รหัสสินค้าที่สั่ง (S0xx,S0x1,S0x2,...)" />
+                                            </div>
+                                            <p>กรุณากรอกข้อมูลให้ครบ หากไม่ประสงค์กรอกข้อมูลใดๆ ให้ใส่เครื่องหมาย(-)</p><br>
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Click to send</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text neon-text">
+                                            <h2>สั่งสินค้า<br>S-Shop<br>🚚🚚🚚</h2><hr>
+                                            <p>กรุณากรอกข้อมูลที่อยู่สำหรับจัดส่งสินค้า</p>
+                                            <p>เพื่อให้เราสามารถส่งถึงมือคุณอย่างรวดเร็วและถูกต้อง</p>
+                                            <p>ขอบคุณที่ให้เราได้บริการคุณ!</p>
+                                            <p>✨📦✨</p>
+                                            <p>ติดต่อ-สอบถาม ช่องทางการชำระ หรือข้อมูลอื่น ๆ</p>
+                                            <p>ได้ทางไลน์ หรือ เบอร์โทรศัพท์ ของทางร้าน</p>
+                                            <div class="xx" style="text-align: center; margin-top: 20px;">
+                                                <a href="https://lin.ee/kQA3Nby" target="_blank">
+                                                    <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">@Line ClicK</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FOLLOW</span>
+                    <ul class="social_icons">
+                        <li><a class="fa fa-facebook color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>                        
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="#"></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">LINE</span>
+                    <span class="social_info"><a class="color_animation" href="https://lin.ee/kQA3Nby">@S-Shop</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+                                <form id="contact-us" method="post" action="contact.php">
+                                    <!-- Left Inputs -->
+                                    <div class="col-md-6 ">
+                                        <!-- Name -->
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <!-- Email -->
+                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                        <!-- Subject -->
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                    </div><!-- End Left Inputs -->
+                                    <!-- Right Inputs -->
+                                    <div class="col-md-6">
+                                        <!-- Message -->
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                    </div><!-- End Right Inputs -->
+                                    <!-- Bottom Submit -->
+                                    <div class="relative fullwidth col-xs-12">
+                                        <!-- Send Button -->
+                                        <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button> 
+                                    </div><!-- End Bottom Submit -->
+                                    <!-- Clear -->
+                                    <div class="clear"></div>
+                                </form>
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; S-Shop 2014, Theme by <a href="">SutLor</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Built With Care By <a href="#" target="_blank">Sahasin</a></p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+        <script src="script.js" ></script>
+    </body>
 </html>
