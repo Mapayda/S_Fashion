@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Shop S Fashion</title>
+        <title>S-SHOP</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -45,7 +45,7 @@
                             <li><a class="color_animation" href="#bread">สินค้าขายดี</a></li>
 
                             <li><a class="color_animation" href="#featured">สินค้าเข้าใหม่</a></li>
-                            <li><a class="color_animation" href="#reservation">สั่งสินค้า</a></li>
+                            <li><a class="color_animation fa fa-shopping-cart fa-2x" href="#reservation"></a></li>
                             <li><a class="color_animation" href="#contact">ติดต่อS-Shop</a></li> 
 
 
@@ -107,10 +107,9 @@
                            <li class="filter" data-filter="dinner">แฟชั่น เด็ก</li>
                        </ul><!-- @end #filter-list -->    
                        <ul id="portfolio">
-
-                           <li class="item breakfast"><img src="images/S000/1.png" alt="Food" >
+                        <li class="item dinner special"><img src="images/S000//1.png" alt="Food" >
                             <h2 class="white">S001</h2>
-                           </li>
+                        </li>
                            <li class="item dinner special"><img src="images/S000//2.png" alt="Food" >
                                <h2 class="white">S002</h2>
                            </li>
@@ -173,7 +172,7 @@
                            
                            
                        </ul><!-- @end #portfolio -->
-                    
+                       
                    </div><!-- @end #w -->
                </div>
            </div>
@@ -199,7 +198,7 @@
                 <div class="col-md-6 col-md-offset-1">
                     <h1>โปรลดราคา</h1>
                     <div class="fa fa-shopping-cart fa-2x"></div>
-                    <p class="desc-text">✨โปร เหมาๆ 🎉 โปรสุดคุ้ม! ขายทุกชิ้นเพียง 30 บาท✨ ซื้อ 10 ชิ้นในราคาพิเศษ! 😍 และยังมีบริการจัดส่งฟรี (สอบถามรายละเอียดเพิ่มเติมกับแอดมินร้านได้เลย) 🚚💨 อย่าพลาดโอกาสนี้นะคะ!</p>
+                    <p class="desc-text">✨โปร เหมาๆ 🎉 โปรสุดคุ้ม! ขายทุกชิ้นเพียง 30 บาท✨ ซื้อ 10+ขึ้นไป จัดในราคาพิเศษ! 😍 และยังมีบริการจัดส่งฟรี (สอบถามรายละเอียดเพิ่มเติมกับแอดมินร้านได้เลย) 🚚💨 อย่าพลาดโอกาสนี้นะคะ!</p>
                 </div>
             </div>
         </section>
@@ -219,9 +218,9 @@
                     <p class="desc-text">🌟 ช้อปเสื้อผ้าแฟชั่นราคาถูกที่นี่! 🌟 พบกับชุดเดรสสุดเก๋และแฟชั่นอื่นๆ ที่อัปเดตทุกเดือน พร้อมโปรพิเศษลดราคาให้คุณเลือกช็อปได้ไม่อั้น! สวยในงบประหยัด แค่คลิกเดียวก็สั่งซื้อได้ทันที ไม่พลาดเทรนด์ฮิต! 🛍️✨</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/slider1.jpg" width="260" alt="Bread">
-                    <img src="images/slider2.jpg" width="260" alt="Bread">
-                    <img src="images/slider3.jpg" width="260" alt="Bread">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                    <img src="images/corn1.jpg" width="260" alt="Bread">
+                    <img src="images/bread2.jpg" width="260" alt="Bread">
                 </div>
             </div>
         </section>
@@ -265,7 +264,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/slider3.jpg" alt="...">
+                                    <img src="images/slider3.JPG" alt="...">
                                     <div class="carousel-caption">
                                         
                                     </div>
@@ -310,10 +309,10 @@
                                                 <input type="text" name="subject" id="subject" required="required" class="form" placeholder="รหัสสินค้าที่สั่ง (S0xx,S0x1,S0x2,...)" />
                                             </div>
                                             <p>กรุณากรอกข้อมูลให้ครบ หากไม่ประสงค์กรอกข้อมูลใดๆ ให้ใส่เครื่องหมาย(-)</p><br>
-                                            <div class="col-xs-6 ">
-                                                <!-- Send Button -->
-                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Click to send</button> 
-                                            </div>
+                                            <div class="col-xs-6">  
+                                                <!-- Send Button -->  
+                                                <button type="button" id="submit" name="submit" class="text-center form-btn form-btn" onclick="redirectToLink()">Click to send</button>
+                                              </div>
                                             
                                         </div>
                                     </div>
@@ -355,7 +354,7 @@
                     <ul class="social_icons">
                         <li><a class="fa fa-facebook color_animation" href="#" target="_blank"></a></li>
                         <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>                        
-                        <li><a class="icon-linkedin color_animation" href="https://lin.ee/kQA3Nby" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
                         <li><a class="icon-mail color_animation" href="#"></a></li>
                         
                     </ul>
@@ -369,7 +368,7 @@
 
         <!-- ============ Contact Section  ============= -->
 
-      <section id="contact">
+        <section id="contact">
             
             <div class="container">
                 <div class="row">
@@ -431,6 +430,7 @@
     window.location.href = "https://mapayda.github.io/userplay/";
   }
         </script>
+        
         
     </body>
 </html>
